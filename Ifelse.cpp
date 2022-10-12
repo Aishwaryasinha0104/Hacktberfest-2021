@@ -1,28 +1,15 @@
-//cpp program demonstrating if else 
 
-#include<iostream>
+// C++ program to illustrate If statement
+#include <iostream>
 using namespace std;
 
 int main()
 {
-    int n1,n2,n3;
-    cout<<"Enter three numbers: "<<endl;
-    cin>>n1>>n2>>n3;
+	int i = 10;
 
-    if(n1>n2)
-    {
-        if(n1>n3)
-        cout<<n1<<endl;
-    }
+	if (i > 15) {
+		cout << "10 is greater than 15";
+	}
 
-    if(n2>n1)
-    {
-        if(n2>n3)
-        cout<<n2<<endl;
-    }
-
-    if
-    cout<<n3<<endl;
-
-return 0;
+	cout << "I am Not in if";
 }
